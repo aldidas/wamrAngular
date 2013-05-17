@@ -5,6 +5,8 @@
 /*.main-wrapper {padding:0 20px;}*/
 body {background:url(../img/noisy_net.png);}
 
+.navbar-inner {border-radius:0 !important;}
+
 #the-main-wrapper {
 	padding:30px 0;
 	margin:30px 0;
