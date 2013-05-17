@@ -1,0 +1,81 @@
+/* Will be compiled down to a single stylesheet with your sass files */
+
+/*.main-wrapper {padding-top:40px;}*/
+
+/*.main-wrapper {padding:0 20px;}*/
+#the-main-wrapper {
+	padding:30px 0;
+	margin:30px 0;
+	box-shadow:0 5px 25px rgba(0,0,0,0.4);
+	border-radius:10px;
+	position:relative;
+}
+.main-wrapper-overflow {
+	overflow-y:auto;
+	overflow-x: hidden;
+	display:block;
+	width:900px;
+	height:430px;
+	margin:0 auto;
+}
+
+.back a {position:absolute;top:30px;left:30px;display:block;height:40px;width:40px;margin:10px 0;background:#bbb;border-radius:20px;line-height:39px;text-align:center;}
+.back a:hover {text-decoration:none;background:#ddd;}
+.back a i {color:#fff;}
+
+#searchForm input {display:block;margin:0 auto;}
+
+#posts-list {margin:0 15px 0 0;}
+#posts-list li h3 {margin-top:0;}
+
+.theForm {
+	padding:30px 0;
+	margin:30px 0;
+	box-shadow:0 5px 25px rgba(0,0,0,0.4);
+	border-radius:10px;
+}
+.theForm h3 {text-align:center;margin-top:0;}
+
+#createFrom div {
+	margin:20px 40px 0 40px;
+}
+
+.example-leave-setup, .example-enter-setup {
+	-webkit-transition:all .5s;
+	-moz-transition:all .5s;
+	-ms-transition:all .5s;
+	-o-transition:all .5s;
+	transition:all .5s;
+}
+
+img.alignleft {float:left;margin:0 20px 20px 0;}
+ 
+.example-animate-container {
+	margin-top:50px;
+	position:relative;
+	height:550px;
+}
+ 
+.example-animate-container > * {
+	display:block;
+	width:100%;
+	 
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	padding:10px;
+}
+ 
+.example-enter-setup {
+	left:100%;
+}
+.example-enter-setup.example-enter-start {
+	left:0;
+}
+ 
+.example-leave-setup { }
+.example-leave-setup.example-leave-start {
+	left:-100%;
+}

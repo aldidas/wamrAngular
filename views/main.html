@@ -1,0 +1,14 @@
+<div id="the-main-wrapper" class="main-wrapper"> 
+	<form id="searchForm">
+	  <input type="text" class="span11 search-query" placeholder="search blog" ng-model="query">
+	</form>
+	<div class="main-wrapper-overflow">
+		<ul id="posts-list" class="unstyled">
+				<li ng-repeat="post in blogPosts.posts | filter:query">
+					<h3><a ng-href="#/blog/{{post.slug}}">{{post.title}}</a></h3>
+					<div>{{post.excerpt}}</div>
+					<hr>
+				</li>
+		</ul>
+	</div>
+</div>
