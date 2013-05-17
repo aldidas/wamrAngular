@@ -3,12 +3,15 @@
 /*.main-wrapper {padding-top:40px;}*/
 
 /*.main-wrapper {padding:0 20px;}*/
+body {background:url(../img/noisy_net.png);}
+
 #the-main-wrapper {
 	padding:30px 0;
 	margin:30px 0;
 	box-shadow:0 5px 25px rgba(0,0,0,0.4);
 	border-radius:10px;
 	position:relative;
+	background:#fff;
 }
 .main-wrapper-overflow {
 	overflow-y:auto;
@@ -33,6 +36,7 @@
 	margin:30px 0;
 	box-shadow:0 5px 25px rgba(0,0,0,0.4);
 	border-radius:10px;
+	background:#fff;
 }
 .theForm h3 {text-align:center;margin-top:0;}
 
